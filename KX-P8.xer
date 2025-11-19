@@ -1,0 +1,148 @@
+ERMHDR	21.12	2025-11-19	Project	ADMIN	gagan	dbxDatabaseNoName	Project Management	GBP
+%T	CURRTYPE
+%F	curr_id	decimal_digit_cnt	curr_symbol	decimal_symbol	digit_group_symbol	pos_curr_fmt_type	neg_curr_fmt_type	curr_type	curr_short_name	group_digit_cnt	base_exch_rate
+%R	1	2	$	.	,	#1.1	(#1.1)	US Dollar	USD	3	1
+%R	13	2	£	.	,	#1.1	(#1.1)	Pound Sterling	GBP	3	0.618603
+%R	14	2	¥	.	,	#1.1	(#1.1)	Japanese Yen	JPY	3	91.2708
+%R	15	2	€	.	,	#1.1	(#1.1)	Euro	EUR	3	0.689711
+%R	16	2	¥	.	,	#1.1	(#1.1)	Chinese Yuan Renminbi	CNY	3	6.82502
+%R	17	2	$	.	,	#1.1	(#1.1)	Canadian Dollar	CAD	3	1.03757
+%R	18	2	RUB	.	,	#1.1	(#1.1)	Russian Ruble	RUB	3	0.033948
+%R	19	2	$	.	,	#1.1	(#1.1)	Argentine Peso	ARS	3	3.79109
+%R	20	2	$b	.	,	#1.1	(#1.1)	Bolivian Boliviano	BOB	3	7.5708
+%R	21	2	R$	.	,	#1.1	(#1.1)	Brazilian Real	BRL	3	1.7665
+%R	22	2	$	.	,	#1.1	(#1.1)	Chilean Peso	CLP	3	507.58
+%R	23	2	$	.	,	#1.1	(#1.1)	Columbian Peso	COP	3	1957.74
+%R	24	2	$	.	,	#1.1	(#1.1)	Guyanese Dollar	GYD	3	202.95
+%R	25	2	Gs	.	,	#1.1	(#1.1)	Paraguayan Guarani	PYG	3	4640
+%R	26	2	S/.	.	,	#1.1	(#1.1)	Peruvian Nuevo Sol	PEN	3	2.7244
+%R	27	2	$	.	,	#1.1	(#1.1)	Surinamese Dollar	SRD	3	2.8
+%R	28	2	Bs	.	,	#1.1	(#1.1)	Venezuelan Bolivar Fuerto	VEF	3	2.1446
+%R	29	2	$U	.	,	#1.1	(#1.1)	Uruguayan Peso	UYU	3	21.247
+%T	FINTMPL
+%F	fintmpl_id	fintmpl_name	default_flag
+%R	1	Calendar	Y
+%T	OBS
+%F	obs_id	parent_obs_id	guid	seq_num	obs_name	obs_descr
+%R	540			0	Enterprise	<html>  <head>      </head>  <body bgcolor=""#ffffff"">    Enterprise  </body></html>
+%T	PROJECT
+%F	proj_id	fy_start_month_num	rsrc_self_add_flag	allow_complete_flag	rsrc_multi_assign_flag	checkout_flag	project_flag	step_complete_flag	cost_qty_recalc_flag	batch_sum_flag	name_sep_char	def_complete_pct_type	proj_short_name	acct_id	orig_proj_id	source_proj_id	base_type_id	clndr_id	sum_base_proj_id	task_code_base	task_code_step	priority_num	wbs_max_sum_level	strgy_priority_num	last_checksum	critical_drtn_hr_cnt	def_cost_per_qty	last_recalc_date	plan_start_date	plan_end_date	scd_end_date	add_date	last_tasksum_date	fcst_start_date	def_duration_type	task_code_prefix	guid	def_qty_type	add_by_name	web_local_root_path	proj_url	def_rate_type	add_act_remain_flag	act_this_per_link_flag	def_task_type	act_pct_link_flag	critical_path_type	task_code_prefix_flag	def_rollup_dates_flag	use_project_baseline_flag	rem_target_link_flag	reset_planned_flag	allow_neg_act_flag	sum_assign_level	last_fin_dates_id	fintmpl_id	last_baseline_update_date	cr_external_key	apply_actuals_date	location_id	loaded_scope_level	export_flag	new_fin_dates_id	baselines_to_export	baseline_names_to_export	next_data_date	close_period_flag	sum_refresh_date	trsrcsum_loaded	sumtask_loaded
+%R	4512	1	Y	Y	Y	N	Y	N	N	Y	.	CP_Drtn	KX-P8					178	4515	1000	10	10	2	500		0	0.0000	2026-05-01 00:00	2026-01-01 00:00		2026-10-09 16:00	2025-11-18 00:00			DT_FixedDUR2	A	FJ/wYdp5hUOoHoti/0yV2g	QT_Hour	ADMIN			COST_PER_QTY	N	Y	TT_Task	Y	CT_TotFloat	Y	Y	Y	Y	N	N	SL_Taskrsrc		1					7	Y						1899-12-30 00:00		
+%T	CALENDAR
+%F	clndr_id	default_flag	clndr_name	proj_id	base_clndr_id	last_chng_date	clndr_type	day_hr_cnt	week_hr_cnt	month_hr_cnt	year_hr_cnt	rsrc_private	clndr_data
+%R	178	Y	Corporate - Standard Full Time			2000-05-23 16:14	CA_Base	8	40	172	2000	N	(0||CalendarData()(  (0||DaysOfWeek()(    (0||1()())    (0||2()(      (0||0(s|08:00|f|16:00)())))    (0||3()(      (0||0(s|08:00|f|16:00)())))    (0||4()(      (0||0(s|08:00|f|16:00)())))    (0||5()(      (0||0(s|08:00|f|16:00)())))    (0||6()(      (0||0(s|08:00|f|16:00)())))    (0||7()())))  (0||VIEW(ShowTotal|Y)())  (0||Exceptions()(    (0||0(d|40179)())    (0||1(d|40329)())    (0||2(d|40364)())    (0||3(d|40427)())    (0||4(d|40507)())    (0||5(d|40536)())    (0||6(d|40543)())    (0||7(d|40693)())    (0||8(d|40728)())    (0||9(d|40791)())    (0||10(d|40871)())    (0||11(d|40903)())    (0||12(d|40910)())    (0||13(d|41057)())    (0||14(d|41094)())    (0||15(d|41155)())    (0||16(d|41235)())    (0||17(d|41268)())    (0||18(d|41275)())    (0||19(d|41421)())    (0||20(d|41459)())    (0||21(d|41519)())    (0||22(d|41606)())    (0||23(d|41633)())))))
+%T	SCHEDOPTIONS
+%F	schedoptions_id	proj_id	sched_outer_depend_type	sched_open_critical_flag	sched_lag_early_start_flag	sched_retained_logic	sched_setplantoforecast	sched_float_type	sched_calendar_on_relationship_lag	sched_use_expect_end_flag	sched_progress_override	level_float_thrs_cnt	level_outer_assign_flag	level_outer_assign_priority	level_over_alloc_pct	level_within_float_flag	level_keep_sched_date_flag	level_all_rsrc_flag	sched_use_project_end_date_for_float	enable_multiple_longest_path_calc	limit_multiple_longest_path_calc	max_multiple_longest_path	use_total_float_multiple_longest_paths	key_activity_for_multiple_longest_paths	LevelPriorityList
+%R	1	4512	SD_Both	N	Y	Y	N	FT_FF	rcal_Predecessor	Y	N	0	N	5	25	N	Y	Y	Y	N	Y	10	Y		priority_type,ASC_BY_FIELD/ASC
+%T	PROJWBS
+%F	wbs_id	proj_id	obs_id	seq_num	est_wt	proj_node_flag	sum_data_flag	status_code	wbs_short_name	wbs_name	phase_id	parent_wbs_id	ev_user_pct	ev_etc_user_value	orig_cost	indep_remain_total_cost	ann_dscnt_rate_pct	dscnt_period_type	indep_remain_work_qty	anticip_start_date	anticip_end_date	ev_compute_type	ev_etc_compute_type	guid	tmpl_guid	plan_open_state
+%R	26992	4512	540	9	1	Y	N	WS_Open	KX-P8	King's Cross Platform 8 Upgrade		3063	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_Rem_hr	DZaoDht+1022mfOyhURCYg		
+%R	26994	4512	540	1	1	N	N	WS_Open	1	Project Management		26992	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_Rem_hr	JmIpe8vzYES6krZ+W1eqpg		
+%R	26995	4512	540	1	1	N	N	WS_Open	1	Contract Admin & Reporting		26994	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_Rem_hr	d1VtDQ7j3U6co9ZXVCkPPA		
+%R	26996	4512	540	101	1	N	N	WS_Open	2	Commercial & Change Management		26994	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_Rem_hr	/0cl2qaF4UKTQ0CccCIPyA		
+%R	26997	4512	540	101	1	N	N	WS_Open	2	Design & Engineering		26992	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_Rem_hr	c6mNBuYxm0upAuVu8jfutA		
+%R	26998	4512	540	0	1	N	N	WS_Open	1	Detailed Design (Foundations)		26997	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_Rem_hr	Ft/ECML2gEqMN/SW3Nrkzg		
+%R	26999	4512	540	100	1	N	N	WS_Open	2	Detailed Design (M&E)		26997	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_Rem_hr	/jE3kOcCCkacHQYZBjXAZg		
+%R	27000	4512	540	201	1	N	N	WS_Open	3	Procurement		26992	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_Rem_hr	//p9Nz0EOUSdCCyDKcHJEg		
+%R	27001	4512	540	1	1	N	N	WS_Open	1	Piling Subcontractor		27000	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_Rem_hr	IATIWXlscUuLn6l++OzTVg		
+%R	27002	4512	540	101	1	N	N	WS_Open	2	DfMA Platform Sections (Long Lead)		27000	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_Rem_hr	1ZMjzIbdZEaHTz3bDY5oiw		
+%R	27003	4512	540	201	1	N	N	WS_Open	3	M&E / Comms Equipment		27000	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_Rem_hr	Mjcg722Ty0qRiWFdEt68lA		
+%R	27004	4512	540	301	1	N	N	WS_Open	4	Site Establishment		26992	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_Rem_hr	F8Ns+J05r02kKx5OZoW9IA		
+%R	27005	4512	540	1	1	N	N	WS_Open	1	Welfare & Site Offices		27004	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_Rem_hr	V/FXYz2Xr0qNBgOLUSz/CA		
+%R	27006	4512	540	101	1	N	N	WS_Open	2	Site Logistics & Hoarding		27004	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_Rem_hr	NyseYHqXz0CrvR75Xx6qmA		
+%R	27007	4512	540	401	1	N	N	WS_Open	5	Construction Works		26992	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_Rem_hr	xB66PBEcIUypywTjRaTS3g		
+%R	27008	4512	540	1	1	N	N	WS_Open	1	Enabling Works & Demolition		27007	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_Rem_hr	08LUZ2/yEkWqUURrki0YeA		
+%R	27009	4512	540	101	1	N	N	WS_Open	2	Substructure (Foundations)		27007	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_Rem_hr	Bf7EVX0Ic0Wmj8BEIr/pYw		
+%R	27010	4512	540	201	1	N	N	WS_Open	3	Superstructure (DfMA Installation)		27007	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_Rem_hr	W9oiiRNDYUOxqSfdfDBvkQ		
+%R	27011	4512	540	301	1	N	N	WS_Open	4	Platform Finishes		27007	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_Rem_hr	DAY+l1BqlUSM+onfYCC+FQ		
+%R	27012	4512	540	401	1	N	N	WS_Open	5	M&E and Comms Installation		27007	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_Rem_hr	lM4oM7ItJkOEOmS97gb0tg		
+%R	27013	4512	540	501	1	N	N	WS_Open	6	Testing & Commissioning		26992	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_Rem_hr	F+qTi+Ms0kav4/a0sSi/9g		
+%R	27014	4512	540	1	1	N	N	WS_Open	1	M&E Systems Testing		27013	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_Rem_hr	SwZrpj8RCk20mOKU1zxRRA		
+%R	27015	4512	540	101	1	N	N	WS_Open	2	Handover & As-Builts		27013	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_Rem_hr	FvJO8L7WcUqewnfJil4mkQ		
+%R	27016	4512	540	601	1	N	N	WS_Open	7	Milestones		26992	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_Rem_hr	HBp9CoCPgE6Iwszg8S//Aw		
+%R	27018	4512	540	1	1	N	N	WS_Open	1	Client Milestones (NEC)		27016	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_Rem_hr	kWasmQdryEW62oSquiFesA		
+%T	TASK
+%F	task_id	proj_id	wbs_id	clndr_id	phys_complete_pct	rev_fdbk_flag	est_wt	lock_plan_flag	auto_compute_act_flag	complete_pct_type	task_type	duration_type	status_code	task_code	task_name	rsrc_id	total_float_hr_cnt	free_float_hr_cnt	remain_drtn_hr_cnt	act_work_qty	remain_work_qty	target_work_qty	target_drtn_hr_cnt	target_equip_qty	act_equip_qty	remain_equip_qty	cstr_date	act_start_date	act_end_date	late_start_date	late_end_date	expect_end_date	early_start_date	early_end_date	restart_date	reend_date	target_start_date	target_end_date	rem_late_start_date	rem_late_end_date	cstr_type	priority_type	suspend_date	resume_date	float_path	float_path_order	guid	tmpl_guid	cstr_date2	cstr_type2	driving_path_flag	act_this_per_work_qty	act_this_per_equip_qty	external_early_start_date	external_late_end_date	create_date	update_date	create_user	update_user	location_id	crt_path_num
+%R	108705	4512	26995	178	100	N	1	N	N	CP_Drtn	TT_LOE	DT_FixedDUR2	TK_Complete	A1000	Monthly Progress Report & Meeting				0	0	0	0	0	0	0	0		2026-01-01 08:00	2026-01-01 08:00								2026-01-01 08:00	2026-01-01 08:00				PT_Normal					JAYlpqgkNEmcHIbCnfm9mQ				N	0	0			2025-11-18 15:03	2025-11-18 16:13				
+%R	108706	4512	26996	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1010	Process Final Account		0	0	80	0	0	0	80	0	0	0				2026-09-28 08:00	2026-10-09 16:00		2026-09-28 08:00	2026-10-09 16:00	2026-09-28 08:00	2026-10-09 16:00	2026-09-28 08:00	2026-10-09 16:00	2026-09-28 08:00	2026-10-09 16:00		PT_Normal					RnS6o/GkqEKyw1z94ckUFg				Y	0	0			2025-11-18 15:06	2025-11-18 16:18				
+%R	108707	4512	26998	178	100	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_Complete	A2000	Mobilise Design Team				0	0	0	0	8	0	0	0		2026-01-01 08:00	2026-01-01 16:00	2026-03-06 08:00	2026-03-06 08:00		2026-05-01 00:00	2026-05-01 00:00			2026-01-01 08:00	2026-01-01 16:00				PT_Normal					E7H+wwUv8Ua3O0qZEupEgg				Y	0	0			2025-11-18 15:07	2025-11-18 16:18				
+%R	108708	4512	26998	178	100	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_Complete	A2010	Issue ""For Construction"" Foundation Designs				0	0	0	0	160	0	0	0		2026-01-02 08:00	2026-01-29 16:00	2026-03-16 08:00	2026-03-16 08:00		2026-05-01 00:00	2026-05-01 00:00			2026-01-02 08:00	2026-01-29 16:00				PT_Normal					lfvfliS9XU+Qe1fAbxCsdA				N	0	0			2025-11-18 15:07	2025-11-18 16:18				
+%R	108709	4512	26999	178	100	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_Complete	A2020	Issue ""For Construction"" M&E/Comms Designs				0	0	0	0	200	0	0	0		2026-01-02 08:00	2026-02-05 16:00	2026-03-06 08:00	2026-03-06 08:00		2026-05-01 00:00	2026-05-01 00:00			2026-01-02 08:00	2026-02-05 16:00				PT_Normal					fX6AhNYDwkylme3GX1ejfg				Y	0	0			2025-11-18 15:08	2025-11-18 16:18				
+%R	108710	4512	27001	178	100	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_Complete	A3000	Tender and Appoint Piling Subcontractor				0	0	0	0	240	0	0	0		2026-01-16 08:00	2026-02-26 16:00	2026-03-16 08:00	2026-03-16 08:00		2026-05-01 00:00	2026-05-01 00:00			2026-01-16 08:00	2026-02-26 16:00				PT_Normal					ufH7TeOg3EaIR0KocmeWcg				N	0	0			2025-11-18 15:09	2025-11-18 16:18				
+%R	108711	4512	27002	178	100	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_Complete	A3010	Place Order for DfMA Platform Sections				0	0	0	0	40	0	0	0		2026-01-30 08:00	2026-02-05 16:00	2026-05-12 12:00	2026-05-12 12:00		2026-05-01 00:00	2026-05-01 00:00			2026-01-30 08:00	2026-02-05 16:00				PT_Normal					XI+eo/Jc8UKqlhKY7mSBsQ				N	0	0			2025-11-18 15:10	2025-11-18 16:18				
+%R	108712	4512	27002	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_Active	A3020	Manufacture & Deliver DfMA Sections (80 units)		60	92	20	0	0	0	40	0	0	0		2026-02-06 08:00		2026-05-12 12:00	2026-05-14 16:00		2026-05-01 08:00	2026-05-05 12:00	2026-05-01 08:00	2026-05-05 12:00	2026-02-06 08:00	2026-02-12 16:00	2026-05-12 12:00	2026-05-14 16:00		PT_Normal					NccArropekurURrnnPBVLg				N	0	0			2025-11-18 15:11	2025-11-18 16:18				
+%R	108713	4512	27003	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A3030	Procure Long-Lead M&E (CCTV, PIS, OPO)		-320	0	480	0	0	0	480	0	0	0				2026-03-06 08:00	2026-05-28 16:00		2026-05-01 08:00	2026-07-23 16:00	2026-05-01 08:00	2026-07-23 16:00	2026-05-01 08:00	2026-07-23 16:00	2026-03-06 08:00	2026-05-28 16:00		PT_Normal					r0J9IP1nakyPeuWQdZGRGg				Y	0	0			2025-11-18 15:11	2025-11-18 16:18				
+%R	108714	4512	27005	178	100	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_Complete	A4000	Set Up Site Welfare & Offices				0	0	0	0	80	0	0	0		2026-01-01 08:00	2026-01-14 16:00	2026-01-30 16:00	2026-01-30 16:00		2026-05-01 00:00	2026-05-01 00:00			2026-01-01 08:00	2026-01-14 16:00				PT_Normal					ruhkqTs2TUmqdBi+xh1/ew				N	0	0			2025-11-18 15:12	2025-11-18 16:18				
+%R	108716	4512	27006	178	100	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_Complete	A4010	Install Site Hoarding & Access Gates				0	0	0	0	40	0	0	0		2026-01-15 08:00	2026-01-21 16:00	2026-01-30 16:00	2026-01-30 16:00		2026-05-01 00:00	2026-05-01 00:00			2026-01-15 08:00	2026-01-21 16:00				PT_Normal					bhZLahhITEeaFPBsvBk++A				N	0	0			2025-11-18 15:13	2025-11-18 16:18				
+%R	108717	4512	27008	178	100	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_Complete	A5000	Mark Out & Scan for Services (Pre-Possession)				0	0	0	0	40	0	0	0		2026-01-22 08:00	2026-01-28 16:00	2026-01-30 16:00	2026-01-30 16:00		2026-05-01 00:00	2026-05-01 00:00			2026-01-22 08:00	2026-01-28 16:00				PT_Normal					zSMx7qwAf0e/7iWeNnCd9A				N	0	0			2025-11-18 15:13	2025-11-18 16:18				
+%R	108718	4512	27008	178	100	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_Complete	A5010	(POSSESSION) - Demolish Existing Platform (250m)				0	0	0	0	160	0	0	0		2026-01-29 08:00	2026-02-25 16:00	2026-02-27 16:00	2026-02-27 16:00		2026-05-01 00:00	2026-05-01 00:00			2026-01-29 08:00	2026-02-25 16:00				PT_Normal					IeUjqNp46kKE4k+9KIu4xg				N	0	0			2025-11-18 15:14	2025-11-18 16:18				
+%R	108719	4512	27009	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_Active	A5020	(POSSESSION) - Install Micro-pile Foundations (Zone 1)		-272	0	112	0	0	0	120	0	0	0		2026-02-27 08:00		2026-03-16 08:00	2026-04-02 16:00		2026-05-01 08:00	2026-05-20 16:00	2026-05-01 08:00	2026-05-20 16:00	2026-02-27 08:00	2026-03-19 16:00	2026-03-16 08:00	2026-04-02 16:00		PT_Normal					6KFgXbdvsU6ALP4IrBtaVg				N	0	0			2025-11-18 15:14	2025-11-18 16:18				
+%R	108720	4512	27009	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A5030	(POSSESSION) - Install Micro-pile Foundations (Zone 2)		-272	0	120	0	0	0	120	0	0	0				2026-04-03 08:00	2026-04-23 16:00		2026-05-21 08:00	2026-06-10 16:00	2026-05-21 08:00	2026-06-10 16:00	2026-05-21 08:00	2026-06-10 16:00	2026-04-03 08:00	2026-04-23 16:00		PT_Normal					vbGf0QFQ3E699tZHwWxYvg				N	0	0			2025-11-18 15:16	2025-11-18 16:18				
+%R	108721	4512	27009	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A5040	(POSSESSION) - Install Micro-pile Foundations (Zone 3)		-272	0	120	0	0	0	120	0	0	0				2026-04-24 08:00	2026-05-14 16:00		2026-06-11 08:00	2026-07-01 16:00	2026-06-11 08:00	2026-07-01 16:00	2026-06-11 08:00	2026-07-01 16:00	2026-04-24 08:00	2026-05-14 16:00		PT_Normal					ULDcFdazJUyPcm8IMuOu+Q				N	0	0			2025-11-18 15:17	2025-11-18 16:18				
+%R	108722	4512	27010	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A5050	(POSSESSION) - Install DfMA Sections (Zone 1)		-32	120	80	0	0	0	80	0	0	0				2026-05-15 08:00	2026-05-28 16:00		2026-05-21 08:00	2026-06-03 16:00	2026-05-21 08:00	2026-06-03 16:00	2026-05-21 08:00	2026-06-03 16:00	2026-05-15 08:00	2026-05-28 16:00		PT_Normal					ZliH0m1FP0GzwKzEqykfBg				N	0	0			2025-11-18 15:17	2025-11-18 16:18				
+%R	108723	4512	27010	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A5060	(POSSESSION) - Install DfMA Sections (Zone 2)		-152	120	80	0	0	0	80	0	0	0				2026-05-15 08:00	2026-05-28 16:00		2026-06-11 08:00	2026-06-24 16:00	2026-06-11 08:00	2026-06-24 16:00	2026-06-11 08:00	2026-06-24 16:00	2026-05-15 08:00	2026-05-28 16:00		PT_Normal					PAWH9cLOxEu6J9MDTqBQ+w				N	0	0			2025-11-18 15:19	2025-11-18 16:18				
+%R	108724	4512	27010	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A5070	(POSSESSION) - Install DfMA Sections (Zone 3)		-272	0	80	0	0	0	80	0	0	0				2026-05-15 08:00	2026-05-28 16:00		2026-07-02 08:00	2026-07-15 16:00	2026-07-02 08:00	2026-07-15 16:00	2026-07-02 08:00	2026-07-15 16:00	2026-05-15 08:00	2026-05-28 16:00		PT_Normal					qqYcha30LUOuC5HAyWp3wA				N	0	0			2025-11-18 15:20	2025-11-18 16:18				
+%R	108725	4512	27011	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A5080	Install Drainage & Form Troughs (Zone 1-3)		-272	0	120	0	0	0	120	0	0	0				2026-05-08 08:00	2026-05-28 16:00		2026-06-25 08:00	2026-07-15 16:00	2026-06-25 08:00	2026-07-15 16:00	2026-06-25 08:00	2026-07-15 16:00	2026-05-08 08:00	2026-05-28 16:00		PT_Normal					jEyS+/Of7U++fZAaDEv6qA				N	0	0			2025-11-18 15:20	2025-11-18 16:18				
+%R	108726	4512	27011	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A5090	Install Platform Surfacing & Tactile Paving		-320	0	160	0	0	0	160	0	0	0				2026-05-29 08:00	2026-06-25 16:00		2026-07-24 08:00	2026-08-20 16:00	2026-07-24 08:00	2026-08-20 16:00	2026-07-24 08:00	2026-08-20 16:00	2026-05-29 08:00	2026-06-25 16:00		PT_Normal					O5kwLfPcuUGBifoiG/88RQ				Y	0	0			2025-11-18 15:22	2025-11-18 16:18				
+%R	108727	4512	27012	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A5100	M&E First Fix (Cabling, Containment)		-272	48	120	0	0	0	120	0	0	0				2026-05-08 08:00	2026-05-28 16:00		2026-06-25 08:00	2026-07-15 16:00	2026-06-25 08:00	2026-07-15 16:00	2026-06-25 08:00	2026-07-15 16:00	2026-05-08 08:00	2026-05-28 16:00		PT_Normal					AT17SwMhB02/DV1+b7gQ1w				N	0	0			2025-11-18 15:22	2025-11-18 16:18				
+%R	108728	4512	27012	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A5110	M&E Second Fix (Install CCTV, PIS, PA, OPO)		-320	0	160	0	0	0	160	0	0	0				2026-05-29 08:00	2026-06-25 16:00		2026-07-24 08:00	2026-08-20 16:00	2026-07-24 08:00	2026-08-20 16:00	2026-07-24 08:00	2026-08-20 16:00	2026-05-29 08:00	2026-06-25 16:00		PT_Normal					eVWlL7DBBEq1g7DOte0TZA				Y	0	0			2025-11-18 15:23	2025-11-18 16:18				
+%R	108729	4512	27012	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A5120	M&E Power & Comms Connections		-320	0	80	0	0	0	80	0	0	0				2026-06-26 08:00	2026-07-09 16:00		2026-08-21 08:00	2026-09-03 16:00	2026-08-21 08:00	2026-09-03 16:00	2026-08-21 08:00	2026-09-03 16:00	2026-06-26 08:00	2026-07-09 16:00		PT_Normal					61Q0Gf9xh0yea6EGILAALw				Y	0	0			2025-11-18 15:24	2025-11-18 16:18				
+%R	108730	4512	27014	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A6000	Test and Commission all M&E/Comms Systems		-320	0	80	0	0	0	80	0	0	0				2026-07-10 08:00	2026-07-23 16:00		2026-09-04 08:00	2026-09-17 16:00	2026-09-04 08:00	2026-09-17 16:00	2026-09-04 08:00	2026-09-17 16:00	2026-07-10 08:00	2026-07-23 16:00		PT_Normal					fROxL1wlmUGs2LwciKcOug				Y	0	0			2025-11-18 15:25	2025-11-18 16:18				
+%R	108731	4512	27015	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A6010	Client Walk-down & Snagging		-320	0	40	0	0	0	40	0	0	0				2026-07-24 08:00	2026-07-30 16:00		2026-09-18 08:00	2026-09-24 16:00	2026-09-18 08:00	2026-09-24 16:00	2026-09-18 08:00	2026-09-24 16:00	2026-07-24 08:00	2026-07-30 16:00		PT_Normal					kUHmemo0mkikppZzQ3LPMg				Y	0	0			2025-11-18 15:25	2025-11-18 16:18				
+%R	108732	4512	27015	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A6020	Project Handover		-320	0	8	0	0	0	8	0	0	0				2026-07-31 08:00	2026-07-31 16:00		2026-09-25 08:00	2026-09-25 16:00	2026-09-25 08:00	2026-09-25 16:00	2026-09-25 08:00	2026-09-25 16:00	2026-07-31 08:00	2026-07-31 16:00		PT_Normal					GdGzYNT/yUqMBm3cYD05cQ				Y	0	0			2025-11-18 15:26	2025-11-18 16:18				
+%R	108733	4512	27018	178	0	N	1	N	N	CP_Drtn	TT_Mile	DT_FixedDrtn	TK_NotStart	M1000	MILESTONE: Contract Start		-688	928	0	0	0	0	0	0	0	0	2026-01-01 08:00			2026-01-01 08:00	2026-01-01 08:00		2026-05-01 08:00	2026-05-01 08:00	2026-05-01 08:00	2026-05-01 08:00	2026-05-01 08:00	2026-05-01 08:00	2026-01-01 08:00	2026-01-01 08:00	CS_MSO	PT_Normal					vJ4an5snAEKZsGHgqgR5Ag				N	0	0			2025-11-18 15:26	2025-11-18 16:18				
+%R	108734	4512	27018	178	0	N	1	N	N	CP_Drtn	TT_Mile	DT_FixedDrtn	TK_NotStart	M1010	MILESTONE: Platform Closed to Public		-512	928	0	0	0	0	0	0	0	0	2026-02-01 00:00			2026-01-30 16:00	2026-01-30 16:00		2026-05-01 08:00	2026-05-01 08:00	2026-05-01 08:00	2026-05-01 08:00	2026-05-01 08:00	2026-05-01 08:00	2026-01-30 16:00	2026-01-30 16:00	CS_MSO	PT_Normal					Jbx/ZAwfakGY1BSpH1Lgpw				N	0	0			2025-11-18 15:27	2025-11-18 16:18				
+%R	108736	4512	27018	178	0	N	1	N	N	CP_Drtn	TT_FinMile	DT_FixedDrtn	TK_NotStart	M1020	MILESTONE: Platform Demolition Complete		-352	928	0	0	0	0	0	0	0	0	2026-03-01 00:00			2026-02-27 16:00	2026-02-27 16:00		2026-05-01 08:00	2026-05-01 08:00	2026-05-01 08:00	2026-05-01 08:00	2026-05-01 08:00	2026-05-01 08:00	2026-02-27 16:00	2026-02-27 16:00	CS_MEOB	PT_Normal					muikufxFX0WP+pxWLMfBEQ				N	0	0			2025-11-18 15:28	2025-11-18 16:18				
+%R	108737	4512	27018	178	0	N	1	N	N	CP_Drtn	TT_FinMile	DT_FixedDrtn	TK_NotStart	M1030	MILESTONE: Platform Structure Complete		-264	496	0	0	0	0	0	0	0	0	2026-06-01 00:00			2026-05-29 16:00	2026-05-29 16:00		2026-07-15 16:00	2026-07-15 16:00	2026-07-15 16:00	2026-07-15 16:00	2026-07-15 16:00	2026-07-15 16:00	2026-05-29 16:00	2026-05-29 16:00	CS_MEOB	PT_Normal					OYtrG71OrUWyi9rtWXTuVA				N	0	0			2025-11-18 15:32	2025-11-18 16:18				
+%R	108738	4512	27018	178	0	N	1	N	N	CP_Drtn	TT_FinMile	DT_FixedDrtn	TK_NotStart	M1040	MILESTONE: Ready for Passenger Service		-320	80	0	0	0	0	0	0	0	0	2026-08-01 00:00			2026-07-31 16:00	2026-07-31 16:00		2026-09-25 16:00	2026-09-25 16:00	2026-09-25 16:00	2026-09-25 16:00	2026-09-25 16:00	2026-09-25 16:00	2026-07-31 16:00	2026-07-31 16:00	CS_MEOB	PT_Normal					U6LVWzZNd0yswuyqFS8WIg				N	0	0			2025-11-18 15:35	2025-11-18 16:18				
+%T	PROJCOST
+%F	cost_item_id	acct_id	pobs_id	cost_type_id	proj_id	task_id	cost_name	po_number	vendor_name	act_cost	cost_per_qty	remain_cost	target_cost	cost_load_type	auto_compute_act_flag	target_qty	qty_name	cost_descr	contract_manager_import
+%R	19326				4512	108718	Contract Value			0.0000	92790.4500	150000.0000	150000.0000	CL_Uniform	N	1.6165456682234			
+%R	19327				4512	108719	Contract Value			0.0000	77325.3750	125000.0000	125000.0000	CL_Uniform	N	1.6165456682234			
+%R	19328				4512	108720	contract value			0.0000	77325.3750	125000.0000	125000.0000	CL_Uniform	N	1.6165456682234			
+%R	19329				4512	108721	contrcat value			0.0000	77325.3750	125000.0000	125000.0000	CL_Uniform	N	1.6165456682234			
+%R	19330				4512	108722	cntract value			0.0000	154650.7500	250000.0000	250000.0000	CL_Uniform	N	1.6165456682234			
+%R	19331				4512	108723	contract value			0.0000	154650.7500	250000.0000	250000.0000	CL_Uniform	N	1.6165456682234			
+%R	19332				4512	108724	contract value			0.0000	154650.7500	250000.0000	250000.0000	CL_Uniform	N	1.6165456682234			
+%R	19333				4512	108725	cv			0.0000	49488.2400	80000.0000	80000.0000	CL_Uniform	N	1.6165456682234			
+%R	19334				4512	108726	cv			0.0000	68046.3300	110000.0000	110000.0000	CL_Uniform	N	1.6165456682234			
+%R	19335				4512	108727	cv			0.0000	46395.2250	75000.0000	75000.0000	CL_Uniform	N	1.6165456682234			
+%R	19336				4512	108728	cv			0.0000	55674.2700	90000.0000	90000.0000	CL_Uniform	N	1.6165456682234			
+%R	19337				4512	108729	cv			0.0000	27837.1350	45000.0000	45000.0000	CL_Uniform	N	1.6165456682234			
+%R	19338				4512	108730	cv			0.0000	3093.0150	50000.0000	50000.0000	CL_Uniform	N	16.165456682234			
+%T	TASKPRED
+%F	task_pred_id	task_id	pred_task_id	proj_id	pred_proj_id	pred_type	lag_hr_cnt	comments	float_path	aref	arls
+%R	49012	108708	108707	4512	4512	PR_FS	0			2026-05-01 00:00	2026-03-16 08:00
+%R	49013	108709	108707	4512	4512	PR_FS	0			2026-05-01 00:00	2026-03-06 08:00
+%R	49014	108710	108708	4512	4512	PR_SS	80			2026-05-01 00:00	2026-03-16 08:00
+%R	49015	108711	108708	4512	4512	PR_FS	0			2026-05-01 00:00	2026-05-12 12:00
+%R	49016	108712	108711	4512	4512	PR_FS	0			2026-05-01 00:00	2026-05-12 12:00
+%R	49017	108713	108709	4512	4512	PR_FS	0			2026-05-01 00:00	2026-03-06 08:00
+%R	49018	108716	108714	4512	4512	PR_FS	0			2026-05-01 00:00	2026-01-30 16:00
+%R	49019	108717	108716	4512	4512	PR_FS	0			2026-05-01 00:00	2026-01-30 16:00
+%R	49020	108718	108717	4512	4512	PR_FS	0			2026-05-01 00:00	2026-02-27 16:00
+%R	49021	108719	108718	4512	4512	PR_FS	0			2026-05-01 00:00	2026-03-16 08:00
+%R	49022	108720	108719	4512	4512	PR_FS	0			2026-05-20 16:00	2026-04-03 08:00
+%R	49023	108721	108720	4512	4512	PR_FS	0			2026-06-10 16:00	2026-04-24 08:00
+%R	49024	108722	108719	4512	4512	PR_FS	0			2026-05-20 16:00	2026-05-15 08:00
+%R	49025	108722	108712	4512	4512	PR_FS	0			2026-05-05 12:00	2026-05-15 08:00
+%R	49026	108723	108720	4512	4512	PR_FS	0			2026-06-10 16:00	2026-05-15 08:00
+%R	49027	108723	108722	4512	4512	PR_SS	0			2026-05-21 08:00	2026-05-01 08:00
+%R	49028	108724	108721	4512	4512	PR_FS	0			2026-07-01 16:00	2026-05-15 08:00
+%R	49029	108724	108723	4512	4512	PR_SS	0			2026-06-11 08:00	2026-05-01 08:00
+%R	49030	108725	108724	4512	4512	PR_FF	0			2026-06-25 08:00	2026-05-28 16:00
+%R	49031	108727	108725	4512	4512	PR_SS	0			2026-06-25 08:00	2026-04-17 08:00
+%R	49032	108728	108713	4512	4512	PR_FS	0			2026-07-23 16:00	2026-05-29 08:00
+%R	49033	108728	108727	4512	4512	PR_FS	0			2026-07-15 16:00	2026-05-29 08:00
+%R	49034	108726	108728	4512	4512	PR_FF	0			2026-07-24 08:00	2026-06-25 16:00
+%R	49035	108729	108726	4512	4512	PR_FS	0			2026-08-20 16:00	2026-06-26 08:00
+%R	49036	108730	108729	4512	4512	PR_FS	0			2026-09-03 16:00	2026-07-10 08:00
+%R	49037	108731	108730	4512	4512	PR_FS	0			2026-09-17 16:00	2026-07-24 08:00
+%R	49038	108734	108717	4512	4512	PR_FS	0			2026-05-01 00:00	2026-01-30 16:00
+%R	49039	108736	108718	4512	4512	PR_FS	0			2026-05-01 00:00	2026-02-27 16:00
+%R	49040	108737	108724	4512	4512	PR_FS	0			2026-07-15 16:00	2026-05-29 16:00
+%R	49041	108706	108732	4512	4512	PR_FS	0			2026-09-25 16:00	2026-09-28 08:00
+%R	49042	108738	108732	4512	4512	PR_FF	0			2026-09-25 16:00	2026-07-31 16:00
+%R	49043	108719	108710	4512	4512	PR_FS	0			2026-05-01 00:00	2026-03-16 08:00
+%R	49044	108732	108731	4512	4512	PR_FS	0			2026-09-24 16:00	2026-07-31 08:00
+%E
