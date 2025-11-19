@@ -20,7 +20,7 @@ This project simulates a full-lifecycle **Project Controls** environment for a c
 
 #### 1. Planning & Scheduling (Primavera P6)
 * Developed a **Level 3, logic-linked schedule** with 30+ activities.
-* Applied **Cost Loading** (£1.73m budget) to enable Earned Value Management (EVM).
+* Applied **Cost Loading** (£1.70m budget) to enable Earned Value Management (EVM).
 * Created a **WBS Structure** aligned with construction phases (Design -> Procurement -> Construction).
 * **Scenario:** Simulated a major "Site Obstruction" event during piling, updating the remaining duration to reflect a realistic delay.
 
@@ -35,7 +35,7 @@ This project simulates a full-lifecycle **Project Controls** environment for a c
 #### 3. Performance Analytics (Power BI)
 * **Data Modeling:** Created a dedicated `DateTable` and established relationships for time-intelligence functions.
 * **DAX Measures:** Wrote custom DAX for **Cumulative Planned Value (PV)** and **Cumulative Earned Value (EV)** to generate the S-Curve.
-* **Forensic Analysis:** Built a dynamic delay table to isolate activities with >10 days variance, pinpointing the "Piling Zone 1" obstruction as the root cause.
+* **Forensic Analysis:** Built a dynamic delay table to isolate activities with negative variance, pinpointing the "Piling Zone 1" obstruction as the root cause.
 
 ---
 
